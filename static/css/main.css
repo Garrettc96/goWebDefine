@@ -1,0 +1,27 @@
+body{
+  background-color: white;
+}
+.container{
+  width: 50%;
+}
+#dropDown ul li{
+  list-style: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#dropDown ul{
+  padding-left:0;
+}
+li:after{
+  content:' ';
+    display:block;
+    border:1px solid black;
+    width:50%;
+}
+#dropDown{
+  width: 100%;
+  background-color:#EFEFEF;
+}
+body:not(.container){
+  background-color: red !important;
+}
